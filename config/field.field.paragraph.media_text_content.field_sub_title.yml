@@ -1,0 +1,19 @@
+uuid: e6d8c95b-c65d-46a4-81fd-38c9e30eff65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_sub_title
+    - paragraphs.paragraphs_type.media_text_content
+id: paragraph.media_text_content.field_sub_title
+field_name: field_sub_title
+entity_type: paragraph
+bundle: media_text_content
+label: 'Sub Title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

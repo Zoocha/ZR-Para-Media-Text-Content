@@ -1,0 +1,21 @@
+uuid: 3bedfd2b-a570-423a-8112-a3330ba06783
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_position
+    - paragraphs.paragraphs_type.media_text_content
+  module:
+    - options
+id: paragraph.media_text_content.field_position
+field_name: field_position
+entity_type: paragraph
+bundle: media_text_content
+label: Position
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,19 @@
+uuid: 54235171-c9f0-41a0-b292-d15beda47ce7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_copy
+    - paragraphs.paragraphs_type.media_text_content
+id: paragraph.media_text_content.field_copy
+field_name: field_copy
+entity_type: paragraph
+bundle: media_text_content
+label: Copy
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
