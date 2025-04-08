@@ -1,6 +1,6 @@
 {
-    "name": "zr/zr-cb-media-text-content",
-    "description": "ZR Media Text Content",
+    "name": "zr/zr-para-media-text-content",
+    "description": "ZR Paragraph Media Text Content",
     "type": "drupal-recipe",
     "require": {
         "php": ">=8.1",
