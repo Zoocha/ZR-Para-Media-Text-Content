@@ -2,10 +2,11 @@ name: 'Zoocha Para Media Text Content'
 description: 'Provides Media Text Content component for Zoocha.'
 type: 'Feature'
 
-recipe:
+recipes:
   - zr-paragraph-bundle
   - zr-media-bundle
-  - linkit
 
+install: 
+  - linkit
 config:
   strict: false
