@@ -5,6 +5,8 @@ dependencies:
   module:
     - options
     - paragraphs
+_core:
+  default_config_hash: wAjQUz8YVwrJS5xp0Ppx7S5iK4ske5Fg8FuSJYsrc-0
 id: paragraph.field_position
 field_name: field_position
 entity_type: paragraph
@@ -12,11 +14,11 @@ type: list_string
 settings:
   allowed_values:
     -
-      value: right
-      label: Right
-    -
       value: left
       label: Left
+    -
+      value: right
+      label: Right
   allowed_values_function: ''
 module: options
 locked: false

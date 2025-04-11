@@ -12,6 +12,8 @@ dependencies:
   module:
     - linkit
     - options
+_core:
+  default_config_hash: 7DWh5W8WIwTDUwBgrYWmQHxlL6kIGGt7J8zo25dixdU
 id: paragraph.media_text_content.default
 targetEntityType: paragraph
 bundle: media_text_content
@@ -22,7 +24,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 0
+    weight: 2
     region: content
   field_link:
     type: linkit
@@ -35,7 +37,7 @@ content:
       target: ''
       linkit_profile: default
     third_party_settings: {  }
-    weight: 1
+    weight: 4
     region: content
   field_media:
     type: entity_reference_entity_view
@@ -44,14 +46,14 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 0
+    weight: 1
     region: content
   field_position:
     type: list_default
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 4
+    weight: 3
     region: content
   field_sub_title:
     type: string
@@ -59,6 +61,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 3
+    weight: 0
     region: content
-hidden: {  }
+hidden:
+  search_api_excerpt: true
