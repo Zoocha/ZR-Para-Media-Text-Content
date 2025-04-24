@@ -15,7 +15,7 @@ entity_type: paragraph
 bundle: media_text_content
 label: Position
 description: ''
-required: false
+required: true
 translatable: false
 default_value:
   -
